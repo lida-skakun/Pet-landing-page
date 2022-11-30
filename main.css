@@ -179,6 +179,11 @@ footer a {
   color: #ffffff;
 }
 
+footer a:hover {
+  cursor: pointer;
+  color: var(--additional-color);
+}
+
 @media (max-width: 992px) {
   h1 {
     font-size: 24px;
@@ -215,5 +220,9 @@ footer a {
 
   .about-pet {
     margin: o auto;
+  }
+
+  .contact-card {
+    margin: 0 auto;
   }
 }
