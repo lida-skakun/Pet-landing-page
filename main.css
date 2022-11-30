@@ -153,12 +153,13 @@ hr {
 }
 
 .add-photo {
-  margin: 20px 0;
+  margin: 40px 0;
 }
 
 .add-photo img {
   border-radius: 50%;
   opacity: 1;
+  margin: 10px;
 }
 
 .add-photo img:hover {
