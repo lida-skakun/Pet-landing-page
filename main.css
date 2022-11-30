@@ -215,8 +215,9 @@ footer a:hover {
   }
 
   header a {
-    margin-right: 5px;
+    margin-right: 0;
     padding: 5px;
+    font-size: 12px;
   }
 
   .about-pet {
@@ -225,5 +226,6 @@ footer a:hover {
 
   .contact-card {
     margin: 0 auto;
+    font-size: 12px;
   }
 }
