@@ -1,0 +1,219 @@
+:root {
+  --general-color: #1f6c15;
+  --lighter-general-color: #e9f1e8;
+  --additional-color: #909294;
+}
+
+body {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  max-width: 1500px;
+  margin: 0 auto;
+}
+
+header {
+  display: flex;
+  justify-content: space-around;
+  position: sticky;
+  top: 0;
+  right: 0;
+  left: 0;
+  z-index: 5;
+  background: #ffffff;
+  padding: 15px;
+}
+
+header ul {
+  list-style: none;
+  display: flex;
+  margin: 0;
+}
+
+header a {
+  color: var(--additional-color);
+  text-decoration: none;
+  margin-right: 20px;
+  padding: 10px;
+}
+
+header a:hover {
+  color: var(--general-color);
+  cursor: pointer;
+}
+
+.current-page {
+  border: 1px solid var(--general-color);
+  border-radius: 15px;
+}
+
+.front-page {
+  border: 50px solid var(--general-color);
+  padding: 50px;
+}
+
+.additional-info,
+.about-pet li {
+  color: var(--additional-color);
+}
+
+.first-photo {
+  margin-bottom: 80px;
+  border-radius: 45% 45% 45% 0%;
+}
+
+h5,
+h3,
+.fa-paw {
+  color: var(--general-color);
+}
+
+.second-photo {
+  margin-top: 100px;
+  border-radius: 45% 45% 0% 45%;
+}
+
+h3 {
+  text-align: center;
+}
+
+.about-pet ul {
+  display: flex;
+}
+
+.about-pet li {
+  margin-bottom: 30px;
+  color: var(--additional-color);
+  list-style-type: none;
+}
+
+.about-pet-list {
+  background: var(--lighter-general-color);
+  border-radius: 5px;
+  padding: 10px;
+  margin: 20px;
+  text-align: center;
+  line-height: 2;
+}
+
+.kat-gallery {
+  margin: 0 auto;
+  max-width: 900px;
+}
+
+hr {
+  color: var(--general-color);
+  margin: 50px 0;
+}
+
+.contacts {
+  background: var(--lighter-general-color);
+  padding: 40px;
+}
+
+.contact-card h5 {
+  font-weight: 400;
+}
+
+.contact-card p {
+  color: var(--additional-color);
+  font-size: 14px;
+}
+
+.contact-card {
+  border-radius: 5px;
+  margin: 20px 60px;
+  background: #ffffff;
+  padding: 50px;
+  line-height: 2;
+  border: 1px solid #ffffff;
+}
+
+.contact-card:hover {
+  border: 1px solid var(--general-color);
+}
+.contact-card input,
+.contact-card button {
+  border: 1px solid var(--additional-color);
+  border-radius: 5px;
+  margin-bottom: 14px;
+  width: 100%;
+  caret-color: var(--additional-color);
+}
+
+.contact-card input:focus {
+  outline: 3px solid var(--lighter-general-color);
+}
+
+.contact-card button {
+  display: block;
+  background: var(--general-color);
+  color: #ffffff;
+  padding: 6px;
+  margin: 10px 0;
+}
+
+.add-photo {
+  margin: 20px 0;
+}
+
+.add-photo img {
+  border-radius: 50%;
+  opacity: 1;
+}
+
+.add-photo img:hover {
+  opacity: 0.7;
+}
+
+footer {
+  font-size: 10px;
+  text-align: center;
+  padding: 15px;
+  background: var(--general-color);
+  margin: 0;
+  color: #ffffff;
+}
+
+footer a {
+  text-decoration: none;
+  color: #ffffff;
+}
+
+@media (max-width: 992px) {
+  h1 {
+    font-size: 24px;
+  }
+}
+
+@media (max-width: 768px) {
+  .second-front-column {
+    display: none;
+  }
+
+  .heading {
+    padding: 10px 0 !important;
+  }
+  .first-photo {
+    margin-bottom: 10px;
+  }
+
+  .about-pet ul {
+    display: block;
+    padding: 0;
+  }
+}
+
+@media (max-width: 576px) {
+  h1 {
+    font-size: 16px;
+  }
+
+  header a {
+    margin-right: 5px;
+    padding: 5px;
+  }
+
+  .about-pet {
+    margin: o auto;
+  }
+}

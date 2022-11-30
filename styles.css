@@ -1,0 +1,176 @@
+:root {
+  --additional-dark-color: #333;
+  --primary-color: #00b295;
+  --main-gradient: linear-gradient(120deg, #84fab0 0%, #8fd3f4 100%);
+  --additional-gradient: linear-gradient(135deg, #00b295, #00ace0);
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+}
+
+header {
+  background: #ffffff;
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+  padding: 15px;
+  z-index: 5;
+}
+
+.general {
+  padding-top: 130px !important;
+}
+
+nav li {
+  display: inline;
+  margin-left: 15px;
+  font-weight: 300;
+}
+
+nav a {
+  text-decoration: none;
+  color: #000000;
+}
+
+nav li.active a {
+  font-weight: 700;
+}
+
+.bg-main-gradient {
+  background-image: var(--main-gradient);
+  padding: 40px;
+}
+
+h1 {
+  color: var(--additional-dark-color);
+  font-weight: 700;
+  line-height: 2em;
+}
+
+h2,
+.icon {
+  font-size: 24px;
+  opacity: 0.8;
+}
+
+.introducing {
+  display: flex;
+  justify-content: space-around;
+}
+
+.introducing-image {
+  max-width: 300px;
+}
+
+.my-works-link,
+.general-link {
+  text-decoration: none;
+  padding: 15px 30px;
+  border-radius: 50px;
+  font-size: 16px;
+  font-weight: 700;
+  color: #ffffff;
+  text-transform: uppercase;
+  max-width: 200px;
+}
+
+.general-link {
+  background-color: var(--primary-color);
+  background-image: var(--additional-gradient);
+  margin-right: 30px;
+}
+
+.my-works-link {
+  background: var(--additional-dark-color);
+}
+
+i {
+  color: var(--primary-color);
+  text-align: center !important;
+  font-size: 50px;
+}
+
+.arrow {
+  text-align: center;
+}
+
+h3 {
+  background: var(--additional-gradient);
+}
+
+.description {
+  font-weight: 300;
+  line-height: 1.7;
+}
+
+.about-section {
+  margin-top: 40px;
+}
+
+.main-section {
+  padding-top: 40px;
+  background: #f3f3f3;
+}
+
+.contacts-box {
+  line-height: 3;
+}
+
+footer .contacts {
+  display: flex;
+  justify-content: space-around;
+  margin: 0 100px;
+  border-radius: 10px;
+}
+
+.author-info {
+  font-size: 12px;
+  font-weight: 300;
+}
+
+@media (max-width: 768px) {
+  .photo {
+    max-width: 200px;
+  }
+
+  footer .contacts {
+    margin: 0;
+    border-radius: 0;
+  }
+}
+
+@media (max-width: 576px) {
+  nav li {
+    margin-left: 5px;
+    font-size: 12px;
+  }
+  .apps-details {
+    margin: 10px !important;
+  }
+
+  .description {
+    margin-bottom: 5px !important;
+  }
+
+  h3 {
+    margin-top: 30px;
+  }
+
+  .photo-section {
+    text-align: center;
+  }
+  .contacts-box {
+    padding: 5px;
+    margin: 5px;
+  }
+  .general-link {
+    margin-right: 0;
+  }
+
+  footer .contacts {
+    display: block;
+    text-align: center;
+  }
+}
