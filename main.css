@@ -199,13 +199,19 @@ footer a:hover {
   .heading {
     padding: 10px 0 !important;
   }
-  .first-photo {
-    margin-bottom: 10px;
-  }
 
   .about-pet ul {
     display: block;
     padding: 0;
+  }
+
+  .front-page {
+    border: 10px solid var(--general-color);
+    padding: 10px;
+  }
+
+  .front-page h5 {
+    font-size: 12px;
   }
 }
 

@@ -39,11 +39,19 @@
     <div class="front-page" id="top-page">
       <div class="container">
         <div class="row">
+          <h1 class="d-block d-md-none">
+            Welcome to the my cat's inspiring page. Let's get acquainted - this
+            cat is Kisa
+          </h1>
+          <p class="additional-info mt-5 d-block d-md-none">
+            Actually, my cat's first name is Cleopatra. However, when it got to
+            us, it became Anfisa. And after living a little, it became Kisa.
+          </p>
           <div class="col-6 col-md-3">
             <img src="./images/my-cat-10.jpg" class="img-fluid first-photo" />
             <h5>Made with 🤍 for my pet</h5>
           </div>
-          <div class="col-6 heading p-5 lh-lg text-center">
+          <div class="col-md-6 heading p-5 lh-lg text-center d-none d-md-block">
             <h1>
               Welcome to the my cat's inspiring page. Let's get acquainted -
               this cat is Kisa
@@ -54,13 +62,13 @@
               Kisa.
             </p>
           </div>
-          <div class="col-3 d-none d-md-block">
+          <div class="col-6 col-md-3">
             <img src="./images/my-cat-11.jpg" class="img-fluid second-photo" />
           </div>
         </div>
       </div>
     </div>
-    <div class="about-pet container m-sm-5" id="about-pet">
+    <div class="about-pet container m-5" id="about-pet">
       <h3>
         Let's get to know each other better. I will tell a little more about my
         pet
@@ -237,7 +245,7 @@
       <h3>Would you like to see more fun photos</h3>
       <div class="row mt-5">
         <div class="col-lg-6">
-          <form class="contact-card">
+          <form class="contact-card" onSubmit="handleSubmit">
             <h5 class="text-center">Do you want to see more photos?</h5>
             <p class="text-center">Leave your contacts below.</p>
             <p>First Name</p>
