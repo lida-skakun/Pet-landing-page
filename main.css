@@ -72,27 +72,27 @@ h3,
   border-radius: 45% 45% 0% 45%;
 }
 
+.about-pet {
+  padding: 0 50px;
+}
+
 h3 {
   text-align: center;
 }
 
-.about-pet ul {
-  display: flex;
+.right-rounded {
+  border-radius: 0% 45% 45% 0%;
+  padding: 40px 40px 40px 10px;
+  font-size: 15px;
+  line-height: 1.7;
 }
 
-.about-pet li {
-  margin-bottom: 30px;
-  color: var(--additional-color);
-  list-style-type: none;
-}
-
-.about-pet-list {
-  background: var(--lighter-general-color);
-  border-radius: 5px;
-  padding: 10px;
-  margin: 20px;
-  text-align: center;
-  line-height: 2;
+.left-rounded {
+  border-radius: 45% 0% 0% 45%;
+  padding: 40px 10px 40px 40px;
+  font-size: 15px;
+  text-align: right;
+  line-height: 1.7;
 }
 
 .kat-gallery {
