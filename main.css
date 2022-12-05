@@ -192,10 +192,6 @@ footer a:hover {
 }
 
 @media (max-width: 768px) {
-  h1 {
-    text-align: center;
-  }
-
   .second-front-column {
     display: none;
   }
@@ -211,6 +207,7 @@ footer a:hover {
   .front-page {
     border: 10px solid var(--general-color);
     padding: 10px;
+    text-align: center;
   }
 
   .front-page h5 {
