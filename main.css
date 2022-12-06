@@ -41,11 +41,6 @@ header a:hover {
   cursor: pointer;
 }
 
-.current-page {
-  border: 1px solid var(--general-color);
-  border-radius: 15px;
-}
-
 .front-page {
   border: 50px solid var(--general-color);
   padding: 50px;
@@ -79,20 +74,20 @@ h3,
 h3 {
   text-align: center;
 }
+.about-pet p {
+  font-size: 15px;
+  line-height: 1.7;
+}
 
 .right-rounded {
   border-radius: 0% 45% 45% 0%;
   padding: 40px 40px 40px 10px;
-  font-size: 15px;
-  line-height: 1.7;
 }
 
 .left-rounded {
   border-radius: 45% 0% 0% 45%;
   padding: 40px 10px 40px 40px;
-  font-size: 15px;
   text-align: right;
-  line-height: 1.7;
 }
 
 .kat-gallery {
@@ -131,6 +126,7 @@ hr {
 .contact-card:hover {
   border: 1px solid var(--general-color);
 }
+
 .contact-card input,
 .contact-card button {
   border: 1px solid var(--additional-color);
@@ -200,10 +196,6 @@ footer a:hover {
     padding: 10px 0 !important;
   }
 
-  .about-pet p {
-    font-size: 12px;
-  }
-
   .front-page {
     border: 10px solid var(--general-color);
     padding: 10px;
@@ -211,6 +203,10 @@ footer a:hover {
   }
 
   .front-page h5 {
+    font-size: 12px;
+  }
+
+  .about-pet p {
     font-size: 12px;
   }
 }
